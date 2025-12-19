@@ -1,0 +1,128 @@
+{
+  "name": "Simplified Gregorian",
+  "description": "The Gregorian calendar with some simplifications regarding leap years or seasonal timing.",
+  "years": {
+    "yearZero": 0,
+    "firstWeekday": 0,
+    "leapYear": {
+      "leapStart": 8,
+      "leapInterval": 4
+    }
+  },
+  "months": {
+    "values": [
+      {
+        "name": "Sea Season",
+        "abbreviation": "Sea",
+        "ordinal": 1,
+        "days": 56
+      },
+      {
+        "name": "Fire Season",
+        "abbreviation": "Fire",
+        "ordinal": 2,
+        "days": 56,
+        "leapDays": 56
+      },
+      {
+        "name": "Earth Season",
+        "abbreviation": "Earth",
+        "ordinal": 3,
+        "days": 56
+      },
+      {
+        "name": "Dark Season",
+        "abbreviation": "Dark",
+        "ordinal": 4,
+        "days": 56
+      },
+      {
+        "name": "Storm Season",
+        "abbreviation": "Storm",
+        "ordinal": 5,
+        "days": 56
+      },
+      {
+        "name": "Sacred Time",
+        "abbreviation": "Sacred Time",
+        "ordinal": 6,
+        "days": 14
+      }
+    ]
+  },
+  "days": {
+    "values": [
+      {
+        "name": "Freezeday",
+        "abbreviation": "Freeze",
+        "ordinal": 1
+      },
+      {
+        "name": "Waterday",
+        "abbreviation": "Water",
+        "ordinal": 2
+      },
+      {
+        "name": "Clayday",
+        "abbreviation": "Clay",
+        "ordinal": 3
+      },
+      {
+        "name": "Windsday",
+        "abbreviation": "Wind",
+        "ordinal": 4
+      },
+      {
+        "name": "Fireday",
+        "abbreviation": "Fire",
+        "ordinal": 5
+      },
+      {
+        "name": "Wildday",
+        "abbreviation": "Wild",
+        "ordinal": 6
+      },
+      {
+        "name": "Godday",
+        "abbreviation": "God",
+        "ordinal": 7
+      }
+    ],
+    "daysPerYear": 365,
+    "hoursPerDay": 24,
+    "minutesPerHour": 60,
+    "secondsPerMinute": 60
+  },
+  "seasons": {
+    "values": [
+      {
+        "name": "CALENDAR.GREGORIAN.Spring",
+        "monthStart": 1,
+        "monthEnd": 1,
+        "dayStart": null,
+        "dayEnd": null
+      },
+      {
+        "name": "CALENDAR.GREGORIAN.Summer",
+        "monthStart": 2,
+        "monthEnd": 2,
+        "dayStart": null,
+        "dayEnd": null
+      },
+      {
+        "name": "CALENDAR.GREGORIAN.Fall",
+        "monthStart": 3,
+        "monthEnd": 3,
+        "dayStart": null,
+        "dayEnd": null
+      },
+      {
+        "name": "CALENDAR.GREGORIAN.Winter",
+        "monthStart": 4,
+        "monthEnd": 5,
+        "dayStart": null,
+        "dayEnd": null
+      }
+    ]
+  }
+}
